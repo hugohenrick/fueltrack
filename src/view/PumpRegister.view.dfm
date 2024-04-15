@@ -57,12 +57,4 @@ inherited FrmPumpRegisterView: TFrmPumpRegisterView
     Height = 23
     TabOrder = 3
   end
-  object cbTankId: TComboBox
-    Left = 168
-    Top = 56
-    Width = 145
-    Height = 23
-    TabOrder = 4
-    Text = 'cbTankId'
-  end
 end

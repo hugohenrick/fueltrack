@@ -14,15 +14,12 @@ type
     [TDBField('Description')]
     EdtDescricao: TEdit;
     Label3: TLabel;
-    //[TDBField('TankId')]
+    [TDBField('TankId')]
     EdtTanque: TEdit;
     Label2: TLabel;
-    //[TDBField('ID')]
+    [TDBField('ID')]
     EdtID: TEdit;
     Label1: TLabel;
-    [TForeignKey('Tank', 'TankId', 'ID')]
-    [TDBField('TankId')]
-    cbTankId: TComboBox;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
